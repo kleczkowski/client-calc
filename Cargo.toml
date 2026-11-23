@@ -1,0 +1,11 @@
+[package]
+name = "client-calc"
+version = "0.1.0"
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+csv = "1.4.0"
+serde = { version = "1.0", features = ["derive"] }
+primitive_fixed_point_decimal = { version = "1.6.0", features = ["serde"] }
