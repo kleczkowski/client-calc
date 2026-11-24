@@ -36,6 +36,11 @@ wrong states irrepresentable (like having disputes with amounts).
 `Amount` is a fixed-point decimal with four fractional digits. 
 Balance arithmetic assumes that intermediate and final values fit in that range.
 
+## AI Disclosure
+
+In this project AI was used in form of inline code completion (JetBrains IDE feature).
+The rest of the code was written by me, including the architecture and initial data model.
+
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
